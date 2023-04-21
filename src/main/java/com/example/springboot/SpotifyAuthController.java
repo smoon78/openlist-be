@@ -36,7 +36,6 @@ public class SpotifyAuthController {
 
     HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<>(requestBody, headers);
 
-    // TODO: Getting errors here from the Spotify endpoint for invalid auth code
     ResponseEntity<Map> response = restTemplate.postForEntity(
       "https://accounts.spotify.com/api/token",
       request,
@@ -44,6 +43,7 @@ public class SpotifyAuthController {
     );
 
     // TODO: Store access_token and refresh_token in the user's session
+
     return ResponseEntity.ok(response.getBody());
 
   }
