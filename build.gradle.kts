@@ -15,6 +15,9 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("com.auth0:java-jwt:3.18.2")
+	implementation("org.projectlombok:lombok:1.18.22")
+    annotationProcessor("org.projectlombok:lombok:1.18.22")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
