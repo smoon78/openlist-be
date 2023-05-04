@@ -1,5 +1,4 @@
-// src/main/java/com/example/demo/WebConfig.java
-package com.example.springboot;
+package com.openlist.app.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

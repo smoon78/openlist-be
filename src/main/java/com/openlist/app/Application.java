@@ -1,4 +1,4 @@
-package com.example.springboot;
+package com.openlist.app;
 
 import java.util.Arrays;
 
