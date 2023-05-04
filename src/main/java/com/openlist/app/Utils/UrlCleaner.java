@@ -1,11 +1,11 @@
 package com.openlist.app.Utils;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Component;
 
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-@Controller
+@Component
 public class UrlCleaner {
     public String extractApplePlaylistId(String url) {
         // Extract using regex
