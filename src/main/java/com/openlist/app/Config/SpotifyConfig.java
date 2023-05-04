@@ -1,4 +1,4 @@
-package com.openlist.app.config;
+package com.openlist.app.Config;
 
 import org.springframework.beans.factory.annotation.Value; 
 import org.springframework.context.annotation.Configuration; 

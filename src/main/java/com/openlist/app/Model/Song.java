@@ -1,4 +1,4 @@
-package com.openlist.app.model;
+package com.openlist.app.Model;
 
 import lombok.Getter;
 import lombok.Setter;

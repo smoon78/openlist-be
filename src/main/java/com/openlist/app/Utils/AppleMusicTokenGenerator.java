@@ -1,12 +1,8 @@
-package com.openlist.app.util; 
+package com.openlist.app.Utils;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.security.GeneralSecurityException;
 import java.security.KeyFactory;
 import java.security.spec.InvalidKeySpecException;
 import java.security.spec.PKCS8EncodedKeySpec;
@@ -18,7 +14,7 @@ import java.util.Base64;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import com.openlist.app.config.AppleMusicConfig;
+import com.openlist.app.Config.AppleMusicConfig;
 
 @Component
 public class AppleMusicTokenGenerator {
