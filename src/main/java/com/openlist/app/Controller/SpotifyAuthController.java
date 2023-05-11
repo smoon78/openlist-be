@@ -1,4 +1,4 @@
-package com.openlist.app.controller;
+package com.openlist.app.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-import com.openlist.app.config.SpotifyConfig;
+import com.openlist.app.Config.SpotifyConfig;
 
 import java.util.Map;
 
